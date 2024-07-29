@@ -8,7 +8,7 @@ public class DecodeString {
         Stack<Integer> is = new Stack<>();
         Stack<StringBuilder> ss = new Stack<>();
 
-        int n = s.length(), num = 0;
+        int num = 0;
         StringBuilder str = new StringBuilder();
 
         for (char ch : s.toCharArray()) {
