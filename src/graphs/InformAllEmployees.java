@@ -1,12 +1,15 @@
+package graphs;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class InformAllEmployees {
+public class InformAllEmployees {
 
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         
         // array to store each manager's subordinates
+        @SuppressWarnings("unchecked")
         ArrayList<Integer>[] parentChilds = new ArrayList[n];
         for (int i = 0; i < n; i++) {
             parentChilds[i] = new ArrayList<>();
