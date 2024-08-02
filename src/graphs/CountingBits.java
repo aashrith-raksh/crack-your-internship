@@ -1,3 +1,5 @@
+package graphs;
+
 class CoutingBits {
     public int[] countBits(int n) {
       int[] result = new int [n+1];

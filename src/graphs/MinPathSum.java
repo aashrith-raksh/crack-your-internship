@@ -1,3 +1,6 @@
+package graphs;
+import java.util.*;
+
 public class MinPathSum {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -46,5 +49,10 @@ public class MinPathSum {
         int curVal = minVal + grid[row][col];
         dp[row][col] = curVal;
         return curVal;
+    }
+
+    @Override
+    public String toString() {
+        return "MinPathSum []";
     }
 }

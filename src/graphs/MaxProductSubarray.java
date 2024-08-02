@@ -1,3 +1,5 @@
+package graphs;
+
 class MaxProductSubarray {
     public int maxProduct(int[] nums) {
         int left = 1; int right = 1; int ans = Integer. MIN_VALUE;

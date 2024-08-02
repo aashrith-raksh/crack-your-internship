@@ -1,4 +1,8 @@
-pubic class UniquePaths {
+package graphs;
+
+import java.util.Arrays;
+
+public class UniquePaths {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
 
@@ -38,6 +42,9 @@ pubic class UniquePaths {
         
         
         */
+
+        int ans = 0;
+        return ans;
 
        
     }
